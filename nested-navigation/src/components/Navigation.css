@@ -14,6 +14,18 @@
 
 .link__text {
   font-family: system-ui;
+  text-decoration: none;
+  transition: color 0.1s linear;
   /*font-family: "Gill Sans", sans-serif;*/
   color: #F2F2F2;
 }
+
+.link__text:hover {
+  color: #565759;
+}
+
+/*.link__text:active {
+  color: red;
+}*/
+
+

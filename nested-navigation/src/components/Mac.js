@@ -8,7 +8,8 @@ import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 const MacBook = () => {
   return (
     <div>
-      <h1>MBP</h1>
+      <h2>MacBook Pro</h2>
+      <h1>A touch of genius.</h1>
     </div>
   );
 }
@@ -16,7 +17,8 @@ const MacBook = () => {
 const MacBookAir  = () => {
   return (
     <div>
-      <h1>MBP AIR</h1>
+      <h2>MacBook Air</h2>
+      <h1>Make big things happen All day long.</h1>
     </div>
   );
 }
@@ -40,23 +42,7 @@ const Accessories  = () => {
 const Mac = () => {
   return (
     <div>
-      <hr /> {/*
-      <ul>
-        <li>
-          <NavLink to="/Mac/MacBook">
-            MacBook
-          </NavLink>
-          <NavLink to="/Mac/MacBookAir">
-            MacBookAir
-          </NavLink>
-          <NavLink to="/Mac/iMac">
-            iMac
-          </NavLink>
-          <NavLink to="/Mac/Accessories">
-            Accessories
-          </NavLink>
-        </li>
-      </ul>*/}
+      <hr />
       <div className="container">
       <Nav className="nav--container">
         <NavItem className="nav__item">
@@ -73,7 +59,7 @@ const Mac = () => {
         </NavItem>
       </Nav>
       <hr />
-      <h1>Power to the pro.</h1>
+      {/*<h1>Power to the pro.</h1>*/}
       <Route path="/Mac/MacBook" component={MacBook} />
       <Route path="/Mac/MacBookAir" component={MacBookAir} />
       <Route path="/Mac/iMac" component={iMac} />
