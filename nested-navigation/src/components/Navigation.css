@@ -1,0 +1,19 @@
+.nav--container {
+  margin: 0;
+  /*display: inline;*/
+  list-style: none;
+  /*border-style: solid;*/
+  /*border: thin;*/
+  background-color: #262626;
+}
+
+.nav__item {
+  display: inline-flex;
+  padding: 25px;
+}
+
+.link__text {
+  font-family: system-ui;
+  /*font-family: "Gill Sans", sans-serif;*/
+  color: #F2F2F2;
+}
